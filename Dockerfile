@@ -25,8 +25,6 @@ RUN apk update \
 
 COPY ./manifest/ /
 
-VOLUME ["/var/www/app"]
-
 EXPOSE 80
 
 CMD ["/bin/sh", "/entrypoint.sh"]
