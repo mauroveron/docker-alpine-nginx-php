@@ -1,4 +1,4 @@
-FROM php:7.2-fpm-alpine3.6
+FROM php:7.1-fpm-alpine3.4
 
 ENV PACKAGES="nginx py-pip supervisor libmcrypt-dev zlib-dev git"
 
